@@ -1,0 +1,19 @@
+.play-all-music-btn {
+  color: aliceblue;
+  background-color: rgb(252, 60, 83);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000042;
+  transition: all 0.1s;
+	
+}
+.play-all-music-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(244, 19, 46, 0.436);
+}
+.play-all-music-btn:active {
+  cursor: pointer;
+  transform: translateY(3px);
+}

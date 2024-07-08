@@ -1,0 +1,12 @@
+import { useRoute, useRouter } from 'vue-router'
+import { useStore } from "vuex";
+import mixin from '@/mixins/mixin'
+const {
+  getSongTitle,
+  getSingerName,
+} = mixin()
+const { proxy } = getCurrentInstance()
+proxy.$message({
+        message: res.message,
+        type: res.type
+      })
